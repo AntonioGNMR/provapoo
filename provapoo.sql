@@ -1,0 +1,17 @@
+CREATE DATABASE provinha; 
+USE provinha; 
+
+CREATE TABLE tbl_epa
+(
+	id        	  INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	produto	  VARCHAR(40) NOT NULL,
+	descricao	  VARCHAR(200) NOT NULL
+);
+
+
+CREATE TABLE tbl_Login
+(
+	id		INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    email   VARCHAR(30),
+	senha   INT NOT NULL 
+);
